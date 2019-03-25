@@ -1,0 +1,53 @@
+<svg id="comp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298.815" height="271.372"
+                    viewBox="0 0 298.815 271.372">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="2.082" y1="0.5" x2="-0.754" y2="0.5" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#0027ff" />
+                            <stop offset="0.527" stop-color="#00a7ff" />
+                            <stop offset="1" stop-color="#a6ffcb" />
+                        </linearGradient>
+                    </defs>
+                    <g id="Home_CompPhone" data-name="Home CompPhone" transform="translate(-1103.846 -236.567)">
+                        <g id="Computer" transform="translate(1103.846 236.567)">
+                            <rect id="Rectangle_1" data-name="Rectangle 1" width="298.815" height="186.759" rx="25"
+                                transform="translate(0 0)" fill="#fff" />
+                            <path id="Path_3" data-name="Path 3" d="M1237.545,571,1228,638h91.873l-9.545-67Z"
+                                transform="translate(-1124.078 -385.747)" fill="#fff" />
+                            <path id="Path_4" data-name="Path 4"
+                                d="M1343.971,677.85H1228v-5.092s.053-1.882,0-4.534c-.135-6.716,6.274-10.389,12.049-10.214,12.322.373,91.874,0,91.874,0s12.053.578,12.049,10.214,0,4.534,0,4.534Z"
+                                transform="translate(-1136.126 -406.479)" fill="#fff" />
+                            <rect id="Rectangle_2" data-name="Rectangle 2" width="286.163" height="173.204" rx="25"
+                                transform="translate(6.778 6.778)" fill="#4d4d4d" />
+                            <rect id="Rectangle" width="45.184" height="12.049" rx="6.024" transform="translate(21.462 156.26)"
+                                fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="60.998" height="12.049" rx="6.024"
+                                transform="translate(21.462 136.681)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="97.898" height="12.049" rx="6.024"
+                                transform="translate(55.35 117.101)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="26.357" height="12.049" rx="6.024"
+                                transform="translate(21.462 117.101)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="96.392" height="12.049" rx="6.024"
+                                transform="translate(99.781 97.521)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="70.788" height="12.049" rx="6.024"
+                                transform="translate(21.462 97.521)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="64.763" height="12.049" rx="6.024"
+                                transform="translate(143.082 77.942)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="12.049" height="12.049" rx="6.024"
+                                transform="translate(123.502 77.942)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="52.714" height="12.049" rx="6.024"
+                                transform="translate(62.881 77.942)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="33.888" height="12.049" rx="6.024"
+                                transform="translate(21.462 77.942)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="26.357" height="12.049" rx="6.024"
+                                transform="translate(119.36 58.362)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="70.788" height="12.049" rx="6.024"
+                                transform="translate(41.042 58.362)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="12.049" height="12.049" rx="6.024"
+                                transform="translate(21.462 58.362)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="70.788" height="12.049" rx="6.024"
+                                transform="translate(21.462 38.783)" fill="url(#linear-gradient)" />
+                            <rect id="Rectangle" data-name="Rectangle" width="52.714" height="12.049" rx="6.024"
+                                transform="translate(21.462 19.203)" fill="url(#linear-gradient)" />
+                        </g>
+                    </g>
+                </svg>

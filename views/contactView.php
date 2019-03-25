@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <?php
+    $controller = new Controller();
+    $controller->loadHead('Error404');
+    ?>
+    <body id="contactPage">
+        <header>
+            <article>
+                <div class="bg"></div>
+                <?php
+                    $controller->loadNav('Error404');
+                ?>
+                <article class="card">
+                    <h1>Contact</h1>
+                </article>
+            </article>
+        </header>
+        <main>
+            <article id="contact">
+                <h1>Other ways to contact me</h1>
+                <p>Do you want to get in touch?</p>
+                <p>Try one of the options below!</p>
+                <div>
+                    <section id="mail" class="box"><i class="fas fa-envelope"></i>
+                        <p>thomas@lamars.nl</p>
+                    </section>
+                    <section id="phone" class="box"> <i class="fas fa-mobile"></i>
+                        <p>+ 31 6 22837418</p>
+                    </section>
+
+                </div>
+                <a class="btn btn-primary">Contact Form</a>
+            </article>
+        </main>
+        <?php
+            $controller->loadFooter();
+        ?>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<svg id="comphone" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="565" height="538.433" viewBox="0 0 565 538.433">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.082" y1="0.5" x2="-0.754" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0027ff"/>
+      <stop offset="0.527" stop-color="#00a7ff"/>
+      <stop offset="1" stop-color="#a6ffcb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="2.082" y1="0.5" x2="-0.754" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="red"/>
+      <stop offset="0.734" stop-color="#ff6c00"/>
+      <stop offset="1" stop-color="#ffb100"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="2.082" y1="0.5" x2="-0.754" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb100"/>
+      <stop offset="0.527" stop-color="#ff6c00"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb100"/>
+      <stop offset="0.478" stop-color="#ff6c00"/>
+      <stop offset="1" stop-color="#ff3636"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-23" x1="2.082" y1="0.5" x2="-0.754" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0027ff"/>
+      <stop offset="0" stop-color="#ffb100"/>
+      <stop offset="0.527" stop-color="#ff6c00"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <g id="Home_CompPhone" data-name="Home CompPhone" transform="translate(-1098 -235.567)">
+    <g id="Computer" transform="translate(-8 -86.433)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="543.726" height="339.829" rx="25" transform="translate(1106 322)" fill="#2c2c2c"/>
+      <path id="Path_3" data-name="Path 3" d="M1245.369,571,1228,692.906h167.174L1377.805,571Z" transform="translate(67.098 88.088)" fill="#2c2c2c"/>
+      <path id="Path_4" data-name="Path 4" d="M1439.024,694.116H1228V684.85s.1-3.424,0-8.25c-.245-12.22,11.417-18.9,21.924-18.586,22.42.68,167.174,0,167.174,0s21.932,1.052,21.924,18.586,0,8.25,0,8.25Z" transform="translate(45.173 121.674)" fill="#2c2c2c"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="520.706" height="315.164" rx="25" transform="translate(1118.333 334.332)" fill="#4d4d4d"/>
+      <rect id="Rectangle" width="82.217" height="21.924" rx="10.962" transform="translate(1145.053 606.333)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="110.993" height="21.924" rx="10.962" transform="translate(1145.053 570.705)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="178.136" height="21.924" rx="10.962" transform="translate(1206.715 535.078)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="47.96" height="21.924" rx="10.962" transform="translate(1145.053 535.078)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="175.396" height="21.924" rx="10.962" transform="translate(1287.562 499.451)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="128.806" height="21.924" rx="10.962" transform="translate(1145.053 499.451)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="117.844" height="21.924" rx="10.962" transform="translate(1366.353 463.824)" fill="url(#linear-gradient-7)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="21.924" height="21.924" rx="10.962" transform="translate(1330.726 463.824)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="95.919" height="21.924" rx="10.962" transform="translate(1220.418 463.824)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="61.663" height="21.924" rx="10.962" transform="translate(1145.053 463.824)" fill="url(#linear-gradient-10)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="47.96" height="21.924" rx="10.962" transform="translate(1323.189 428.197)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="128.806" height="21.924" rx="10.962" transform="translate(1180.68 428.197)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="21.924" height="21.924" rx="10.962" transform="translate(1145.053 428.197)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="128.806" height="21.924" rx="10.962" transform="translate(1145.053 392.569)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" data-name="Rectangle" width="95.919" height="21.924" rx="10.962" transform="translate(1145.053 356.942)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Phone" transform="translate(779 416)">
+      <path id="nee" data-name="Path 27" d="M25,0h97.613a25,25,0,0,1,25,25V267a25,25,0,0,1-25,25H25A25,25,0,0,1,0,267V25A25,25,0,0,1,25,0Z" transform="translate(736.387 66)" fill="#2c2c2c"/>
+      <path id="phone" data-name="Path 18" d="M.166-82.861,131.2-54.743V-290.376H.166Z" transform="translate(744.538 384.058)" fill="url(#linear-gradient-16)"/>
+      <text id="phone" transform="translate(757.795 105.892)" fill="#2c2c2c" font-size="8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">THOMAS</tspan></text>
+      <line id="phone" data-name="Line 5" x2="10.032" transform="translate(852.238 102.462)" fill="none" stroke="#2c2c2c" stroke-width="1"/>
+      <path id="phone" data-name="Path 19" d="M0,0H10.032" transform="translate(852.238 99.348)" fill="none" stroke="#2c2c2c" stroke-width="1"/>
+      <path id="phone" data-name="Path 20" d="M0,0H10.032" transform="translate(852.238 105.575)" fill="none" stroke="#2c2c2c" stroke-width="1"/>
+      <text id="phone" transform="translate(757.795 150.19)" fill="#2c2c2c" font-size="14" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Error</tspan></text>
+      <text id="phone" data-name="You tried to access a 
+page that doesn’t exists " transform="translate(757.795 163.293)" fill="#2c2c2c" font-size="10" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">You tried to access a </tspan><tspan x="0" y="12">page that doesn’t exists </tspan></text>
+      <g id="Computer-2" data-name="Computer" transform="translate(759.217 189.302)">
+        <path id="phone" data-name="Path 3" d="M1231.124,571,1228,592.923h30.063L1254.94,571Z" transform="translate(-1193.994 -510.38)" fill="#2c2c2c"/>
+        <path id="phone" data-name="Path 4" d="M1265.947,664.5H1228v-1.666s.018-.616,0-1.484c-.044-2.2,2.053-3.4,3.943-3.342,4.032.122,30.063,0,30.063,0s3.944.189,3.943,3.342,0,1.484,0,1.484Z" transform="translate(-1197.934 -575.698)" fill="#2c2c2c"/>
+        <rect id="phone" data-name="Rectangle 26" width="97.64" height="60.677" rx="5" transform="translate(0.218 0.218)" fill="#2c2c2c"/>
+        <rect id="phone" data-name="Rectangle 2" width="93.64" height="56.677" rx="5" transform="translate(2.218 2.218)" fill="#4d4d4d"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="14.785" height="3.943" rx="1.971" transform="translate(7.023 51.132)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="19.96" height="3.943" rx="1.971" transform="translate(7.023 44.725)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="32.035" height="3.943" rx="1.971" transform="translate(18.112 38.318)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="8.625" height="3.943" rx="1.971" transform="translate(7.023 38.318)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="31.542" height="3.943" rx="1.971" transform="translate(32.651 31.912)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="23.164" height="3.943" rx="1.971" transform="translate(7.023 31.912)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="21.192" height="3.943" rx="1.971" transform="translate(46.82 25.505)" fill="url(#linear-gradient-23)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="3.943" height="3.943" rx="1.971" transform="translate(40.413 25.505)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="17.249" height="3.943" rx="1.971" transform="translate(20.576 25.505)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="11.089" height="3.943" rx="1.971" transform="translate(7.023 25.505)" fill="url(#linear-gradient-10)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="8.625" height="3.943" rx="1.971" transform="translate(39.058 19.098)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="23.164" height="3.943" rx="1.971" transform="translate(13.43 19.098)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="3.943" height="3.943" rx="1.971" transform="translate(7.023 19.098)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="23.164" height="3.943" rx="1.971" transform="translate(7.023 12.691)" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle2" data-name="Rectangle" width="17.249" height="3.943" rx="1.971" transform="translate(7.023 6.284)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Path_17" data-name="Path 17" transform="translate(744.453 74.066)" fill="none">
+        <path d="M20.166,0h5.8c2.756,0,5.222,2.332,5.222,4.8,0,1.737-.264,5.082,6.594,5.082H95.332c4.529-.171,4.633-2.24,4.6-4.845a5.056,5.056,0,0,1,5-5.04h6.386a20.166,20.166,0,0,1,20.166,20.166V255.7a20.166,20.166,0,0,1-20.166,20.166H20.166A20.166,20.166,0,0,1,0,255.7V20.166A20.166,20.166,0,0,1,20.166,0Z" stroke="none"/>
+        <path d="M 20.16573333740234 0.5 C 17.51066589355469 0.5 14.93527221679688 1.0198974609375 12.51109313964844 2.04522705078125 C 10.16938018798828 3.035675048828125 8.066200256347656 4.4537353515625 6.25994873046875 6.259979248046875 C 4.4537353515625 8.066192626953125 3.03570556640625 10.16937255859375 2.045196533203125 12.51107788085938 C 1.019882202148438 14.93524169921875 0.4999847412109375 17.51065063476562 0.4999847412109375 20.16572570800781 L 0.4999847412109375 255.7016448974609 C 0.4999847412109375 258.3567199707031 1.019882202148438 260.93212890625 2.045196533203125 263.3562927246094 C 3.035659790039062 265.697998046875 4.4537353515625 267.8011779785156 6.25994873046875 269.607421875 C 8.066200256347656 271.4136352539062 10.16938018798828 272.8316955566406 12.51109313964844 273.8221435546875 C 14.93527221679688 274.8474731445312 17.51066589355469 275.3673706054688 20.16573333740234 275.3673706054688 L 111.3149490356445 275.3673706054688 C 113.9700164794922 275.3673706054688 116.54541015625 274.8474731445312 118.9695892333984 273.8221435546875 C 121.3113021850586 272.8316955566406 123.4144821166992 271.4136352539062 125.2206954956055 269.607421875 C 127.0269470214844 267.8011779785156 128.4449768066406 265.697998046875 129.4354553222656 263.3562927246094 C 130.4607696533203 260.93212890625 130.9806671142578 258.3567199707031 130.9806671142578 255.7016448974609 L 130.9806671142578 20.16572570800781 C 130.9806671142578 17.51065063476562 130.4607696533203 14.93524169921875 129.4354553222656 12.51107788085938 C 128.4449768066406 10.16937255859375 127.0269470214844 8.066192626953125 125.2206954956055 6.259979248046875 C 123.4144821166992 4.4537353515625 121.3113021850586 3.035675048828125 118.9695892333984 2.04522705078125 C 116.54541015625 1.0198974609375 113.9700164794922 0.5 111.3149490356445 0.5 L 104.9290542602539 0.5 C 103.7344512939453 0.5 102.6040191650391 0.979339599609375 101.7460556030273 1.8497314453125 C 100.8912658691406 2.71685791015625 100.4105224609375 3.8770751953125 100.4271240234375 5.0328369140625 C 100.4480895996094 6.494903564453125 100.4119491577148 7.6900634765625 99.75544738769531 8.65606689453125 C 99.01202392578125 9.750030517578125 97.61227416992188 10.29922485351562 95.35037231445312 10.3843994140625 L 95.34098815917969 10.384765625 L 95.33155822753906 10.384765625 L 37.78359222412109 10.384765625 C 34.92977142333984 10.384765625 32.99069976806641 9.830108642578125 31.85555267333984 8.689117431640625 C 30.67562866210938 7.503143310546875 30.68338012695312 5.9892578125 30.68852233886719 4.987518310546875 C 30.6888427734375 4.92425537109375 30.68916320800781 4.862762451171875 30.68916320800781 4.80316162109375 C 30.68916320800781 3.757080078125 30.17237854003906 2.67755126953125 29.27133941650391 1.841400146484375 C 28.35273742675781 0.988922119140625 27.14826965332031 0.5 25.96684265136719 0.5 L 20.16573333740234 0.5 M 20.16573333740234 0 C 20.16573333740234 0 23.21098327636719 0 25.96684265136719 0 C 28.72270202636719 0 31.18916320800781 2.33197021484375 31.18916320800781 4.80316162109375 C 31.18916320800781 6.5404052734375 30.92484283447266 9.884765625 37.78359222412109 9.884765625 C 44.64234161376953 9.884765625 81.48088073730469 9.884765625 95.33155822753906 9.884765625 C 99.86102294921875 9.71417236328125 99.96452331542969 7.644317626953125 99.92716217041016 5.040008544921875 C 99.8897705078125 2.435638427734375 102.0820922851562 0 104.9290542602539 0 C 107.7759857177734 0 111.3149490356445 0 111.3149490356445 0 C 122.4521636962891 0 131.4806671142578 9.02850341796875 131.4806671142578 20.16572570800781 L 131.4806671142578 255.7016448974609 C 131.4806671142578 266.8388977050781 122.4521636962891 275.8673706054688 111.3149490356445 275.8673706054688 L 20.16573333740234 275.8673706054688 C 9.028518676757812 275.8673706054688 -1.52587890625e-05 266.8388977050781 -1.52587890625e-05 255.7016448974609 L -1.52587890625e-05 20.16572570800781 C -1.52587890625e-05 9.02850341796875 9.028518676757812 0 20.16573333740234 0 Z" stroke="none" fill="#4d4d4d"/>
+      </g>
+      <text id="loading" transform="translate(800.508 90.538)" fill="#fff" font-size="3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Thomaur.nl</tspan></text>
+      <text id="_21:59" data-name="21:59" transform="translate(761.431 80.609)" fill="#fff" font-size="3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">21:59</tspan></text>
+      <text id="_100_" data-name="100%" transform="translate(848.281 80.609)" fill="#fff" font-size="3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">100%</tspan></text>
+      <g id="loading" data-name="Ellipse 1" transform="translate(796.489 86.985)" fill="none" stroke="#91ff96" stroke-width="0.5">
+        <ellipse cx="1.339" cy="1.339" rx="1.339" ry="1.339" stroke="none"/>
+        <ellipse cx="1.339" cy="1.339" rx="1.089" ry="1.089" fill="none"/>
+      </g>
+      <rect id="loading" data-name="Rectangle 25" width="3.572" height="3.125" rx="1" transform="translate(796.043 88.324)" fill="#91ff96"/>
+    </g>
+  </g>
+</svg>

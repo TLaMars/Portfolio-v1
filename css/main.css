@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+:root {
+    --primary: rgb(0,167,255);
+    --secondary: rgb(54,85,255);
+    --third: rgb(166,255,203);
+    --errorPrimary: #FF3636;
+    --errorSecondary: #FF6C00;
+    --errorThird: #FFB100;
+    --white: #fff;
+    --darkgray: #2C2C2C;
+    --lightgray: #4D4D4D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Montserrat';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--white);
+}
+
+h1 {
+    font-size: 1.9em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* Header with nav*/
+header {
+    color: var(--white) !important;
+    position: relative;
+    height: 90%;
+    min-height: 500px;
+}
+
+header div.bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-height: 400px;
+    background: var(--third); /* Old browsers */
+    background: -moz-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--third), endColorstr=var(--secondary),GradientType=0 ); /* IE6-9 */
+    -ms-transform: skewY(12deg);
+    -webkit-transform: skewY(12deg);
+    transform: skewY(12deg);
+    transform-origin: top right;
+}
+
+header p {
+    padding-bottom: 2em;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin: auto 0 auto 0;
+}
+
+nav img {
+    width: 40px;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+ul section {
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 0 !important;
+}
+
+ul section h1 {
+    color: var(--secondary);
+    margin: auto 0 auto 0;
+}
+
+ul.active {
+    padding: 0.5em 2em;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background: var(--white);
+    width: calc(100% - 4em);
+    height: calc(100% - 1em);
+
+}
+
+ul.active li a {
+    color: var(--darkgray);
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+}
+
+ul li a, ul img {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: block;
+    padding: 1.5em 0em;
+    color: var(--white);
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    margin: auto;
+}
+
+ul li#goLight img, ul li#goDark img {
+    width: 1.25em;
+    height: 1.25em;
+    margin: auto;
+    float: left;
+}
+
+ul li#goDark img {
+    filter: invert(83%);
+}
+
+header article {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+header section {
+    padding: 0 2.4em 4.8em 2.4em;
+}
+
+header section section {
+    padding: none;
+}
+
+header section section svg#comphone {  
+    min-width: 200px;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto 0 auto;
+}
+
+header section section svg#comp {
+    display: none;
+}
+
+/* About me*/
+main article#about, main article#contact {
+    padding: 2.4em 2.4em 4.8em 2.4em;
+    text-align: center;
+    color: var(--darkgray);
+}
+
+main article#about h1, 
+main article#contact h1,
+main article#projects h1 {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+main article#about h2, main article#contact h1 {
+    padding-bottom: 0.5em;
+}
+
+main article#about img {
+    width: 90%;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+main article#about span {
+    color: var(--secondary);
+}
+
+main article#about p {
+    text-align: left;
+}
+
+/* Latest Projects*/
+main article#projects {
+    position: relative;
+    height: auto;
+    color: var(--white);
+    text-align: center;
+    padding: 4.8em 2.4em 4.8em 2.4em;
+}   
+main article#projects div.bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: var(--third); /* Old browsers */
+    background: -moz-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--third), endColorstr=var(--secondary),GradientType=0 ); /* IE6-9 */
+    -ms-transform: skewY(12deg);
+    -webkit-transform: skewY(12deg);
+    transform: skewY(12deg);
+    margin-bottom: 110px;
+}
+
+main article#projects section article {
+    margin: auto;
+}
+
+main article#projects p {
+    text-align: left;
+}
+
+main article#projects img {
+    object-fit: cover;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+/* Contact */
+main article#contact {
+    padding: 4.8em 2em 2.4em 2em;
+}
+
+main article#contact section {
+    display: grid;
+    grid-template-columns: 15px auto;
+}
+
+main article#contact section i {
+    font-size: 20px;
+}
+
+.box {
+    border-radius: 5px;
+    border: solid 2px var(--secondary);
+    padding: 0.8em 2em;
+    margin-top: 1em;
+}
+
+article#projects, footer {
+    color: var(--white) !important;
+}
+
+/*Footer*/
+footer {
+    position: relative;
+    height: auto;
+    color: var(--white);
+    text-align: left;
+    padding: 2.4em 2.4em 2.4em 2.4em;
+    z-index: 2;
+}
+
+footer article {
+    display: grid;
+    grid-template-areas: "1";
+    grid-row-gap: 1em;
+}
+
+footer div.bg {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--third); /* Old browsers */
+    background: -moz-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right bottom, var(--third) 0%, var(--primary) 50%, var(--secondary) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--third), endColorstr=var(--secondary),GradientType=0 ); /* IE6-9 */
+}
+
+/*Buttons / links*/
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    width: calc(100% - 6em);
+    padding: 1em 3em;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1em !important;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary {
+    background: var(--secondary); /* Old browsers */
+    color: white;
+}
+
+.btn-secondary {
+    background: var(--white); /* Old browsers */
+    color: var(--secondary);
+}
+
+/* Contact Page */
+#contactPage main  article#contact {
+    padding: 2.4em;
+}
+
+.card
+{
+    background: var(--white); 
+    color: var(--darkgray); 
+    border-radius: 10px; 
+    text-align: center;
+    width: calc(100% - 8.8em);
+    max-width: 1300px;
+    height: calc(90% - 149px);
+    border: none;
+    padding: 2em;
+    margin: 0 2.4em;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Remove computer from screens with width smaller than 350px */
+@media only screen and (max-width : 350px) {
+    header section section svg {
+        display: none;
+    } 
+    header {
+        min-height: 500px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    header#error #funnytext{
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    header {
+        min-height: 900px;
+    }
+
+    h1 {
+    font-size: 2.1em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    /*Header*/
+    header section {
+        padding-top: 4%;
+        max-width: 1400px;
+        width: 89%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-column-gap: 5%;
+        height: 90%;
+    }
+
+    header ul {
+        display: block;
+    }
+
+    header ul div {
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        float: right;
+    }
+
+    .active {
+        border-bottom: 3px;
+    }
+
+    header ul div li {
+        display: table-cell;
+        float: left;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+
+    header ul div li a, header ul div li button, header ul div li img {
+        color: var(--white);
+        font-size: .8em;
+    }
+
+    header nav ul section h1 {
+        display:none;
+    }
+
+    header nav img {
+        display: none;
+    }
+
+    header nav {
+        grid-template-columns: 10% 90%;
+        max-width: 1400px;
+        width: 90%;
+        margin: auto;
+    }
+
+    header nav section {
+        display: none;
+    }
+
+    ul li#goDark img {
+        filter: invert(0%);
+    }
+
+    ul li#goLight img {
+        filter: invert(83%);
+    }
+
+    header section div {
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+
+    header div.bg, main article#projects div.bg {
+        -ms-transform: skewY(6deg);
+        -webkit-transform: skewY(6deg);
+        transform: skewY(6deg);
+    }
+
+    header div.bg {
+        min-height: 900px;
+    }
+
+    header section section svg#comphone {
+        top: 0;
+        display: block;
+        width: 375px;
+        height: auto;
+        margin-right: 15%;
+        margin-top: 25%;
+    }
+
+    /*About me*/
+    #about {
+        max-width: 1100px;
+        margin: auto;
+        padding: 2.4em 2.4em 4.8em 2.4em;
+    }
+
+    #about a.btn {
+        text-align: left;
+    }
+
+    #about article {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 10%;
+    }
+
+    #about article div span:before {
+        content: ' '; 
+        display: block;
+        
+    }
+
+    #about article div h2{
+        text-align: left;
+        font-size: 2.1em;
+    }
+
+    main article#contact {
+        padding: 4.8em 2.4em 2.4em 2.4em;
+    }
+
+    /* Projects */
+    main article#projects {
+        padding: 4.8em 2.4em;
+    }
+
+    #projects section {
+        max-width: 1400px;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        ". titel ."
+        "p1 p2 p3" 
+        ". button .";
+        grid-column-gap: 3%;
+    }
+
+    #projects section h1 {
+        grid-area: titel;
+    }
+
+    #projects section a {
+        grid-area: button;
+    }
+
+    .project1, .project2, .project3 {
+        width: 100%;
+    }
+
+    .project1 {
+        grid-area: p1;
+    }
+
+    .project2 {
+        grid-area: p2;
+    }
+
+    .project3 {
+        grid-area: p3;
+    }
+
+    /*Contact*/
+    #contact {
+        max-width: 1400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    article#contact div {
+        display: grid;
+        grid-template-areas: ". mail phone .";
+        grid-template-columns: 2% 46% 46% 2%;
+        grid-column-gap: 1%;
+    }
+
+    main article#contact section i {
+        font-size: 1.5em;
+    }
+
+
+    #mail {
+        grid-area: mail;
+    }
+
+    #phone {
+        grid-area: phone;
+    }
+
+    .btn {
+        width: auto;
+        padding: 1em 6em;
+    }
+
+    footer article {
+        max-width: 1400px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        "1 2"
+        "3 4";
+        grid-row-gap: 1em;
+    }
+
+    #links, #created {
+        text-align: right;
+    }
+
+    footer article {
+        padding-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width : 1100px) {
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 2.0em;
+    }
+
+    h3 {
+        font-size: 1.9em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    header section div {
+        margin-left: 10%;
+        margin-top: 25%;
+    }
+    header section section svg#comphone {
+        width: 500px;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+
+    main article#about {
+        padding: 2.4em 2.4em 6.2em 2.4em;
+    }
+
+    main article#contact {
+        padding: 6.2em 2.4em 2.4em 2.4em;
+    }
+
+    /* Projects */
+    main article#projects {
+        padding: 6.2em 2.4em;
+    }
+
+    article#contact div{
+        grid-template-columns: 10% 38% 38% 10%;
+    }
+
+    main article#contact section i {
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (min-width : 1400px) {
+    h1 {
+    font-size: 2.3em;
+    }
+
+    h2 {
+        font-size: 2.0em;
+    }
+
+    h3 {
+        font-size: 1.9em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    header section {
+        grid-template-columns: 50% 50%;
+    }
+
+    header section div {
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    
+    header section section svg#comphone {
+        width: auto;
+        margin-right: 10%;
+        margin-top: 0;
+    }
+
+    main article#about, main article#contact {
+        padding: 2em 2.4em 8.4em 2.4em;
+    }
+
+    main article#about {
+        padding: 2em 2.4em 8.4em 2.4em;
+    }
+
+    main article#contact {
+        padding: 8.4em 2.4em 2.4em 2.4em;
+    }
+
+    main article#projects {
+        padding: 8.4em 2.4em 8.4em 2.4em;
+    }
+
+    article#contact div{
+        grid-template-columns: 20% 28% 28% 20%;
+    }
+
+    main article#contact section i {
+        font-size: 2em;
+    }
+
+    /*Contact Page*/
+    
+}
+
+
+/*Error page*/
+header#error {
+    padding: 0;
+}
+
+#error div.bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    min-height: 400px;
+    background: var(--third); /* Old browsers */
+    background: -moz-linear-gradient(to right bottom, var(--errorThird) 0%, var(--errorSecondary) 50%, var(--errorPrimary) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to right bottom, var(--errorThird) 0%, var(--errorSecondary) 50%, var(--errorPrimary) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right bottom, var(--errorThird) 0%, var(--errorSecondary) 50%, var(--errorPrimary) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--errorThird), endColorstr=var(--errorSecondary),GradientType=0 ); /* IE6-9 */
+    transform-origin: top right;
+}
+
+header#error section {
+    height: auto;
+}
