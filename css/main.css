@@ -9,6 +9,7 @@
     --errorSecondary: #FF6C00;
     --errorThird: #FFB100;
     --white: #fff;
+    --whiteTransparent: rgba(255,255,255, 0.5);
     --darkgray: #2C2C2C;
     --lightgray: #4D4D4D;
 }
@@ -352,7 +353,7 @@ footer div.bg {
 
 .card
 {
-    background: var(--white); 
+    background: var(--whiteTransparent); 
     color: var(--darkgray); 
     border-radius: 10px; 
     text-align: center;
@@ -361,8 +362,9 @@ footer div.bg {
     height: calc(90% - 149px);
     border: none;
     padding: 2em;
-    margin: 0 2.4em;
+    margin: auto;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
 }
 
 /* Remove computer from screens with width smaller than 350px */

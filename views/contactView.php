@@ -13,14 +13,18 @@
                 ?>
                 <article class="card">
                     <h1>Contact</h1>
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Thomas Lamars" />
+                        <input type="text" name="email" id="email" placeholder="Thomas Lamars" />
+                        <input type="text" name="phone" id="phone" placeholder="Thomas Lamars" />
+                        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                    </form>
                 </article>
             </article>
         </header>
         <main>
             <article id="contact">
                 <h1>Other ways to contact me</h1>
-                <p>Do you want to get in touch?</p>
-                <p>Try one of the options below!</p>
                 <div>
                     <section id="mail" class="box"><i class="fas fa-envelope"></i>
                         <p>thomas@lamars.nl</p>
